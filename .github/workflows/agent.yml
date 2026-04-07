@@ -54,7 +54,7 @@ jobs:
 
       - name: 📦 Upload Artifacts
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: shorts-${{ github.run_id }}
           path: |
